@@ -26,12 +26,12 @@ Include the gem
 
 Initialize a scraper instance
 
-    profile = Linkedin::Profile.new("http://www.linkedin.com/in/jeffweiner08")
+    profile = Linkedin::Profile.new("http://www.linkedin.com/in/Allenlemoine")
 
 
 With a http web-proxy:
 
-    profile = Linkedin::Profile.new("http://www.linkedin.com/in/jeffweiner08", { proxy_ip: '127.0.0.1', proxy_port: '3128', username: 'user', password: 'pass' })
+    profile = Linkedin::Profile.new("http://www.linkedin.com/in/allenlemoine", { proxy_ip: '127.0.0.1', proxy_port: '3128', username: 'user', password: 'pass' })
 
 The scraper can also get the details of each past and current companies. This will lead to multiple hits.
 To enable this functionality, pass `company_details=true` in options. You can pass them along with proxy options
